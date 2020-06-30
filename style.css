@@ -70,7 +70,7 @@ h1{
     margin: 0 10px;
     padding: 5px 10px;
     border: 1px solid #cccccc;
-    border-radius: 10px;
+    border-radius: 5px;
     line-height: 40px;
   }
   .input-bar02[class="input-bar02"]{
@@ -83,7 +83,74 @@ h1{
      margin: 0;
      outline: none;
   }
+  .barHeadline-03{
+    display: flex;
+    flex-direction: column;
+  }
+  .barHeadline-03 > div {
+    background-color: white;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    line-height: 40px;
+  }
+  .ml{
+    margin: 0 10px;
+    padding: 40px 10px 10px 0px;
+  }
+  .input-subject[class="input-subject"]{
+    line-height: 40px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0;
+    outline:none;
+  }
+  .barHeadline-04{
+    display: flex;
+    flex-direction: column;
+  }
+  .barHeadline-04 > .txtarea{
+    margin: 0 10px;
+    height: 200px;
+    resize: none;
+    border: 1px solid #ccc;
+  }
+  .barHeadline-04 > p {
+    margin: 0 10px;
+    padding: 40px 10px 10px 0px;
+  }
+  .btn-wrap{
+    display: flex;
+    justify-content: center;
 
+    margin: 40px 0;
+  }
+  .btn-submit{
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: red;
+    color: #ffffff;
+
+    font-size: 20px;
+  }
+  .btn-submit a:link{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .btn-submit a:visited{
+    color: #ffffff;
+  }
 }
 @media (min-width: 415px) and (max-width: 768px){
   body{
