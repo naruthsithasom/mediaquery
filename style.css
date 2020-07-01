@@ -13,11 +13,13 @@ body{
   font-family: Montserrat-ExtraLight;
   font-weight: 200;
   font-size: 20px;
+
+
 }
 h1{
   margin: 0;
 }
-@media (min-width: 769px) and (max-width: 1440px){
+@media (min-width: 600px) and (max-width: 1440px){
   .container-pc{
     background-color: #ffffff;
     width:100%;
@@ -76,17 +78,44 @@ h1{
   .input-bar02[class="input-bar02"]{
     line-height: 40px;
     width: 100%;
-    background-color: #fff;
-    border: none;
+    background-color: 1px solid #ccc;
+    border: 1px solid #ccc;
     font-size: 20px;
     font-weight: 200;
      margin: 0;
-     outline: none;
+     /* outline: none; */
+  }
+  .input-bar02[class="input-bar02"]{
+    line-height: 40px;
+    width: 100%;
+    background-color: red;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    font-weight: 200;
+     margin: 0;
+     /* outline: none; */
+  }
+
+  /* div#order1{
+    order: 1;
+  }
+  div#oder3{
+    order:2;
+  }
+  div#order2{
+    order: 3;
+  }
+  div#oder4{
+    order:4;
+  }
+  .cover-lt{
+    display: flex;
+    flex-direction: column;
   }
   .barHeadline-03{
     display: flex;
     flex-direction: column;
-  }
+  } */
   .barHeadline-03 > div {
     background-color: white;
     margin: 0 10px;
@@ -153,7 +182,149 @@ h1{
     color: #ffffff;
   }
 }
-@media (min-width: 415px) and (max-width: 768px){
+
+@media (min-width: 320px) and (max-width: 599px){
+
+.container-lt{
+  /* background-color: #ffffff; */
+  /* width:100%; */
+  /* height: auto; */
+  /* position: relative; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  }
+  .wrap-form-lt{
+    /* width: 80%; */
+    /* position: absolute; */
+    margin-top: 270px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #f5f5f5;
+    /* padding:20px 20px 20px 20px;  */
+  }
+  .topHeadline-lt{
+    display: block;
+    margin: 20px;
+  }
+  .topHeadline-lt > .topTxt-lt{
+    text-align: center;
+  }
+  .spanTxt-01-lt {
+    color: red;
+  }
+  .barHeadline-01-lt, .barHeadline-02-lt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .barHeadline-01-lt > div {
+    width: 100%;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    line-height: 40px;
+  }
+  .barHeadline-02-lt > div {
+    width: 100%;
+    background-color: white;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    line-height: 40px;
+  }
+  /* ------------------------------------------------------- */
+  .box2-lt{
+    display: flex;
+    flex-direction: column;
+  }
+  .item1-lt{ order: 1; }
+  .item2-lt{ order: 3; }
+  .item3-lt{ order: 2; }
+  .item4-lt{ order: 4; }
+  
+  .box2-lt > div{
+    margin: 10px;
+  }
+  .input-bar02[class="input-bar02"]{
+    line-height: 40px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  /* ------------------------------------------------------- */
+  .box3-lt{
+    display: flex;
+    flex-direction: column;
+  }
+  .box3-lt > p , div{
+    margin: 10px;
+  }
+  .box3-lt > .item-subject {
+    line-height: 40px;
+  }
+  .input-subject[class="input-subject"]{
+    line-height: 40px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  /* ------------------------------------------------------- */
+  .barHeadline-04{
+    display: flex;
+    flex-direction: column;
+  }
+  .barHeadline-04 > .item-area{
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .barHeadline-04 > p , textarea {
+    margin: 10px;
+  }
+  /* ------------------------------------------------------- */
+  .btn-wrap{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  .btn-submit{
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: red;
+    color: #ffffff;
+
+    font-size: 20px;
+  }
+  .btn-submit a:link{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .btn-submit a:visited{
+    color: #ffffff;
+  }
+/* ------------------------------------------------------- */
+}
+
+/* @media (min-width: 415px) and (max-width: 768px){
   body{
     display: none;
   }
@@ -168,4 +339,4 @@ h1{
   .container-mobile{
     background-color:green ;
   }
-}
+} */

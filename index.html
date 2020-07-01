@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>media query</title>
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+
 <body>
-  <div class="container-pc">
-    <div class="wrap-form">
+  <div class="container-pc container-lt">
+    <div class="wrap-form wrap-form-lt">
+      <form action="#">
+        <div class="topHeadline topHeadline-lt">
+          <h1 class="topTxt topTxt-lt">Contact us <span class="spanTxt-01 spanTxt-01-lt">today</span></h1>
+        </div>
 
-      <div class="topHeadline">
-      <h1 class="topTxt">Contact us <span class="spanTxt-01">today</span></h1>
+        <!-- Don't remove -->
+        <!-- 
+      <div class="barHeadline-01 barHeadline-01-lt">
+        <div class="item1-lt" id="order1">Your Name (required)</div>
+        <div class="item2-lt" id="order2">Your Email (required)</div>
       </div>
       
-      <div class="barHeadline-01">
-        <div>Your Name (required)</div>
-        <div>Your Email (required)</div>
-      </div>
-      
-      <div class="barHeadline-02">
-        <div><input class="input-bar02"type="text" name="name"></div>
-        <div><input class="input-bar02"type="text" name="email"></div>
-      </div>
-      
-      <div class="barHeadline-03">
-        <p class="ml">Subject</p>
-        <div><input class="input-subject" type="text" name="subject"></div>
-      </div>
-      
-      <div class="barHeadline-04">
-        <p>Your message</p>
-        <textarea name="message" class="txtarea"></textarea>
-      </div>
-      
-      <div class="btn-wrap">
-        <button type="submit" class="btn-submit"><a href="#">Submit</a></button>
-      </div>
+      <div class="barHeadline-02 barHeadline-02-lt">
+        <div class="item3-lt" id="order3"><input class="input-bar02" "type="text" name="name"></div>
+        <div class="item4-lt" id="order4"><input class="input-bar02"type="text" name="email"></div>
+      </div> 
+      -->
+        <!-- Don't remove -->
 
+        <div class="box2-lt">
+          <div class="item1-lt" >Your Name (required)</div>
+          <div class="item2-lt" >Your Email (required)</div>
+          <div class="item3-lt" ><input class="input-bar02" type="text" name="name"></div>
+          <div class="item4-lt" ><input class="input-bar02" type="text" name="name"></div>
+        </div>
+
+        <div class="barHeadline-03 box3-lt">
+          <p>Subject</p>
+          <div class="item-subject"><input class="input-subject" type="text" name="subject"></div>
+        </div>
+
+        <div class="barHeadline-04">
+          <p>Your message</p>
+          <textarea class="item-area" name="message" ></textarea>
+        </div>
+
+        <div class="btn-wrap">
+          <button type="submit" class="btn-submit"><a href="#">Submit</a></button>
+        </div>
+      </form>
     </div>
   </div>
   <!-- -----------End Display for pc ------------->
@@ -48,6 +61,7 @@
   </div> 
   <div class="container-mobile">
     <h1>Display for mobile 320px to 480px</div> -->
-  </div></
+  </div>
 </body>
+
 </html>
