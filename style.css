@@ -21,40 +21,58 @@ h1{
 }
 @media (min-width: 600px) and (max-width: 1440px){
   .container-pc{
-    background-color: #ffffff;
-    width:100%;
-    /* margin-top: 400px;
-    margin-left: 200px;
-    margin-right:200px; */
-    /* margin: 400px 200px 200px 200px; */
-    position: relative;
     display: flex;
-    flex-direction: flex;
-
+    flex-direction: row;
     justify-content: center;
   }
-  .wrap-form{
+  .form-pc{
     width: 80%;
-    position: absolute;
     margin-top: 400px;
-    /* height: 400px; */
     background-color: #fff;
-    /* margin-left: 400px; */
     border-radius: 20px;
     border: 1px solid #f5f5f5;
-    padding:40px 20px 20px 20px; 
+    /* padding:40px 20px 20px 20px;  */
   }
-  .topHeadline{
+  .box1-pc{
     display: block;
-    margin: 40px;
+    margin: 20px;
   }
-  .topHeadline > .topTxt{
+  .box1-pc > .txt-center{
     text-align: center;
   }
-  .spanTxt-01 {
+  .txt-red{
     color: red;
   }
-  .barHeadline-01, .barHeadline-02{
+    /* ------------------------------------------------------- */
+
+    .box2-pc{
+      display:grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+
+      line-height: 40px;
+
+    }
+    .box2-pc .item1-pc, .item2-pc{
+      width: 100%;
+    }
+    .item3-pc, .item4-pc{
+      /* width: 100%; */
+      margin: 10px;
+    }
+    .input-box2[class="input-box2"]{
+      width:100%;
+      border:1px solid #ccc;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 20px;
+      outline: none;
+    }
+    /* .box2-pc  .item1-pc, .item2-pc{
+     display: block;
+    } */
+   
+  /* .barHeadline-01, .barHeadline-02{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -65,8 +83,8 @@ h1{
     padding: 5px 10px;
     border-radius: 10px;
     line-height: 40px;
-  }
-  .barHeadline-02 > div {
+  } */
+  /* .barHeadline-02 > div {
     width: 50%;
     background-color: white;
     margin: 0 10px;
@@ -74,8 +92,8 @@ h1{
     border: 1px solid #cccccc;
     border-radius: 5px;
     line-height: 40px;
-  }
-  .input-bar02[class="input-bar02"]{
+  } */
+  /* .input-bar02[class="input-bar02"]{
     line-height: 40px;
     width: 100%;
     background-color: 1px solid #ccc;
@@ -83,9 +101,9 @@ h1{
     font-size: 20px;
     font-weight: 200;
      margin: 0;
-     /* outline: none; */
-  }
-  .input-bar02[class="input-bar02"]{
+     outline: none;
+  } */
+  /* .input-bar02[class="input-bar02"]{
     line-height: 40px;
     width: 100%;
     background-color: red;
@@ -93,30 +111,9 @@ h1{
     font-size: 20px;
     font-weight: 200;
      margin: 0;
-     /* outline: none; */
-  }
-
-  /* div#order1{
-    order: 1;
-  }
-  div#oder3{
-    order:2;
-  }
-  div#order2{
-    order: 3;
-  }
-  div#oder4{
-    order:4;
-  }
-  .cover-lt{
-    display: flex;
-    flex-direction: column;
-  }
-  .barHeadline-03{
-    display: flex;
-    flex-direction: column;
+     outline: none;
   } */
-  .barHeadline-03 > div {
+  /* .barHeadline-03 > div {
     background-color: white;
     margin: 0 10px;
     padding: 5px 10px;
@@ -127,7 +124,9 @@ h1{
   .ml{
     margin: 0 10px;
     padding: 40px 10px 10px 0px;
-  }
+  } */
+    /* ------------------------------------------------------- */
+
   .input-subject[class="input-subject"]{
     line-height: 40px;
     width: 100%;
@@ -155,18 +154,11 @@ h1{
   .btn-wrap{
     display: flex;
     justify-content: center;
-
     margin: 40px 0;
   }
   .btn-submit{
-    padding-top: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 5px;
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+    padding: 10px 60px;
+    margin: 20px 0;
     border-radius: 5px;
     border: 1px solid red;
     background-color: red;
@@ -177,6 +169,7 @@ h1{
   .btn-submit a:link{
     text-decoration: none;
     color: #ffffff;
+    font-size: 30px;
   }
   .btn-submit a:visited{
     color: #ffffff;
@@ -186,55 +179,28 @@ h1{
 @media (min-width: 320px) and (max-width: 599px){
 
 .container-lt{
-  /* background-color: #ffffff; */
-  /* width:100%; */
-  /* height: auto; */
-  /* position: relative; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   }
-  .wrap-form-lt{
-    /* width: 80%; */
-    /* position: absolute; */
+  .form-lt{
     margin-top: 270px;
     background-color: #fff;
     border-radius: 20px;
     border: 1px solid #f5f5f5;
-    /* padding:20px 20px 20px 20px;  */
   }
-  .topHeadline-lt{
+  .box1-lt{
     display: block;
     margin: 20px;
   }
-  .topHeadline-lt > .topTxt-lt{
+  .box1-lt > .txt-center{
     text-align: center;
   }
-  .spanTxt-01-lt {
+  .txt-red {
     color: red;
   }
-  .barHeadline-01-lt, .barHeadline-02-lt{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .barHeadline-01-lt > div {
-    width: 100%;
-    background-color: white;
-    padding: 5px 10px;
-    border-radius: 10px;
-    line-height: 40px;
-  }
-  .barHeadline-02-lt > div {
-    width: 100%;
-    background-color: white;
-    margin: 10px 10px;
-    padding: 5px 10px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    line-height: 40px;
-  }
   /* ------------------------------------------------------- */
+
   .box2-lt{
     display: flex;
     flex-direction: column;
@@ -247,7 +213,7 @@ h1{
   .box2-lt > div{
     margin: 10px;
   }
-  .input-bar02[class="input-bar02"]{
+  .input-box2[class="input-box2"]{
     line-height: 40px;
     width: 100%;
     background-color: #fff;
@@ -264,10 +230,10 @@ h1{
   .box3-lt > p , div{
     margin: 10px;
   }
-  .box3-lt > .item-subject {
+  .box3-lt > .item-box3-lt {
     line-height: 40px;
   }
-  .input-subject[class="input-subject"]{
+  .input-box3[class="input-box3"]{
     line-height: 40px;
     width: 100%;
     border: 1px solid #ccc;
@@ -276,20 +242,18 @@ h1{
     font-weight: 200;
   }
   /* ------------------------------------------------------- */
-  .barHeadline-04{
+  .box4-lt{
     display: flex;
     flex-direction: column;
   }
-  .barHeadline-04 > .item-area{
-    margin: 0;
+  .box4-lt > .item-box4-lt{
     height: 200px;
-    width: 100%;
     resize: none;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 20px;
   }
-  .barHeadline-04 > p , textarea {
+  .box4-lt > p , textarea {
     margin: 10px;
   }
   /* ------------------------------------------------------- */
@@ -299,14 +263,8 @@ h1{
     margin: 40px 0;
   }
   .btn-submit{
-    padding-top: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 5px;
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+    padding: 10px 60px;
+    margin: 20px 0;
     border-radius: 5px;
     border: 1px solid red;
     background-color: red;
@@ -317,6 +275,7 @@ h1{
   .btn-submit a:link{
     text-decoration: none;
     color: #ffffff;
+    font-size: 30px;
   }
   .btn-submit a:visited{
     color: #ffffff;
