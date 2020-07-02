@@ -13,11 +13,35 @@ body{
   .container{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto;
-    /* margin:10px; */
+    grid-template-rows: auto auto;
     background-color: khaki;
     width: 100%;
-    height: 100vh;
+    height: auto;
+    justify-items: center;
+    padding: 20px;
+  }
+  .fix{
+    padding: 20px;
+  }
+  .wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+  }
+  .wrap > div {
+    width: 360px;
+    height: 500px;
+    background-color: lawngreen;
+    border: 1px solid #cccccc;
+    margin: 10px;
+
+    text-align: center;
+  }
+  p{
+    text-align: justify;
+    padding: 10px;
   }
 }
 
