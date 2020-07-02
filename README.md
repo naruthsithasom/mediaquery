@@ -1,4 +1,4 @@
-# mediaquery
+# mediaquery https://naruthsithasom.github.io/mediaquery/index.html
 # Display for PC and Notebook
 ![screencapture-127-0-0-1-5500-index-html-2020-07-02-14_50_30](https://user-images.githubusercontent.com/25115342/86331647-9416bb00-bc73-11ea-89c1-3eebca737054.png)
 # Display for labtop
